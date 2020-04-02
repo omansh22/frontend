@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="nav">
+     <h1 class="company">Tassy</h1>
+    <div class="b_bar">
+        <input type="search" id="search" placeholder="Search your food" onkeyup="myFunction()" >
+    <button onclick="sort_data()">Sort</button>
+    <button onclick="price_b()">Price</button>
+    <button onclick="Ratings()">Rating</button>
+    <button onclick="handlecart()">View Cart</button>
+    </div>
+    <ul class="nav_bar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Table Reservation</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+    </div>
+    
+
+    <div id="main-container">
+    <div id="menu-container">
+
+
+        <!-- comment for js reference <div class="menu">
+            <img src="/Users/Raghav/my-space/react-freshers/js/restaurant-app/assets/pizza.jpg" alt="Avatar"
+                style="width:100%">
+            <div class="menu-description">
+                <div class="name-price-ratting">
+                    <div>
+                        <span class="bold">Pizza</span>
+                        <div class="bold">
+                            &#x20b9; 150
+                        </div>
+                    </div>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+
+                    </div>
+                </div>
+
+                <p id="item-dics">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore, quas
+                    voluptatem suscipit </p>
+            </div>
+        </div> -->
+    </div>
+    <div id="cartcontainer"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>

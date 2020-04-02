@@ -1,0 +1,94 @@
+#menu-container {
+    display: flex;
+}
+
+.menu {
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 10px;;
+}
+
+.menu:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.menu-description {
+    padding: 20px;
+}
+
+.name-price-ratting {
+    display: flex;
+    justify-content: space-between;
+}
+.bold {
+    font-weight : bold; 
+}
+
+.imgCart {
+    width: 300px;
+    height: auto;
+    
+    
+}
+
+.menu-image {
+    width: 100% ; 
+}
+
+.fa.fa-star.checked {
+    color: orange;
+}
+.button
+{
+    background-color:  rgba(190, 136, 74, 0.2);
+    padding: 10px 20px;
+
+}
+.buttons{
+padding: 10px 20px ;
+}
+
+#main-container{
+    display: flex;
+}
+
+.priceCart{
+    font-weight: bold;
+}
+.nameCart{
+    font-weight: bold;
+}
+#cartcontainer{
+    background-color: grey;
+}
+.nav{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-around;
+    background-color: rgb(126, 74, 174);
+
+}
+.nav_bar{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    justify-content: space-around;
+    width: 40%;
+}
+    .nav_bar a{
+        text-decoration: none;
+        color: rgb(126, 74, 174);
+        letter-spacing: 0.5px;
+        border-radius: 6px;
+        background: #cfd0d6;
+        padding: 10px 10px 10px 10px;
+    
+    }
+.company{
+    color: #cfd0d6
+}
+.b_bar{
+    justify-content: space-between;
+    padding: 35px 0px 10px 20px;
+}
